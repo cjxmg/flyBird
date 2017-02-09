@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	display: block;
+}
+.wrap{
+	width: 343px;
+	height: 437px;
+	background: url(../img/bg.jpg) 0 0 no-repeat;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	overflow: hidden;
+}
+#barrier{
+	position: absolute;
+	top: 0;
+	left: 0;
+	list-style: none;
+	height: 100%;
+	width: 62px;
+}
+.floor{
+	background-image: url(../img/slider.jpg);
+	width: 100%;
+	height: 14px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+#bird{
+	position: absolute;
+	top: 220px;
+	left: 140px;
+	z-index: 2;
+}
+.score{
+	width: 56px;
+	position: absolute;
+	top: 40px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	z-index: 2;
+}
+.score img{
+	margin: auto;
+	float: left;
+}
+.gameOver{
+	position: absolute;
+	left: 60px;
+	top: 190px;
+	width: 221px;
+	height: 40px;
+	background: url(../img/game_over.jpg) 0 0 no-repeat;
+	display: none;
+	z-index: 3;
+}
+.start{
+	position: absolute;
+	width: 85px;
+	height: 29px;
+	background: url(../img/start.jpg) 0 0 no-repeat;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 290px;
+	z-index: 2;
+}
+.banner{
+	position: absolute;
+	width: 236px;
+	height: 77px;
+	left: 80px;
+	top: 110px;
+	background: url(../img/head.jpg) 0 0 no-repeat;
+}
+#menu{
+	position: absolute;
+	width: 200px;
+	height: 30px;
+	top: 350px;
+	left: 0;
+	right: 0;
+	margin: auto; 
+}
+#btn1,#btn2,#btn3{
+	display: block;
+	width: 60px;
+	height: 30px;
+	line-height:30px;
+	color: #444;
+	font-weight: bold;
+	border-style: none;
+	border-radius: 10px;
+	background: url(../img/btn2.png) 0 0 no-repeat;
+	background-size: 60px 40px;
+	border-radius: 10px;
+	overflow: hidden;
+	float: left;
+}
+#btn1{
+	margin-right: 10px;
+}
+#btn2{
+	margin-right: 10px;
+}
+.home{
+	position: absolute;
+	cursor: pointer;
+	height: 18px;
+	line-height: 18px;
+	padding: 4px;
+	font-size: 16px;
+	left: 10px;
+	bottom: 20px;
+	background: linear-gradient(top,#E69133,#D88223);
+	background: -moz-linear-gradient(top,#E69133,#D88223);
+	color: white;
+	font-weight: bold;
+	display: none;
+	z-index: 3;
+}
